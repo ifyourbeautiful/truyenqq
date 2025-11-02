@@ -11,7 +11,7 @@ DOMAIN="https://truyenqqgo.com"
 > "$OUTPUT_FILE" 
 
 echo "♻️  Đã dọn dẹp và chuẩn bị file '$OUTPUT_FILE'"
-read -p "💖 Vui lòng nhập tổng số trang bạn muốn thu thập: " TOTAL_PAGES
+TOTAL_PAGES=370
 
 if ! [[ "$TOTAL_PAGES" =~ ^[0-9]+$ ]] || [ "$TOTAL_PAGES" -eq 0 ]; then
     echo "😥 Oops! Có vẻ như đây không phải là một con số hợp lệ."
